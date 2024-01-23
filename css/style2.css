@@ -73,7 +73,7 @@ nav a {
 }
 
 .project {
-    width: 30%;
+    width: 46.42%;
     margin: 1em;
     padding: 1em;
     background-color: #eee;
@@ -93,6 +93,15 @@ nav a {
 
 
 @media screen and (max-width: 600px) {
+    
+    .project {
+        width: 90%;
+    }
+    
+    .contact-info {
+        font-size: 0.8em;
+    }
+    
     header h1 {
         font-size: 1em;
     }
