@@ -51,3 +51,26 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+@media screen and (max-width: 600px) {
+    /* Apply styles for screens up to 600px wide (typical smartphone size) */
+    header h1 {
+        font-size: 1em; /* Adjust font size as needed */
+    }
+
+    header p {
+        font-size: 0.7em;
+    }
+
+    header a.button {
+        font-size: 0.7em;
+    }
+
+    header img {
+        width: 70px; /* Adjust the image size for smaller screens */
+    }
+
+    header div {
+        width: 100%; /* Make the div take full width on smaller screens */
+    }
+}
