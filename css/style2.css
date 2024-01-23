@@ -80,6 +80,12 @@ nav a {
     border-radius: 8px;
 }
 
+.project iframe {
+    text-align: center;
+    width: 100%; /* Make the iframe fill the container width */
+    height: 315px; /* Set the desired height */
+}
+
 .contact-info {
     text-align: center;
     display: flex; /* Use flexbox to enable flexible box layout */
